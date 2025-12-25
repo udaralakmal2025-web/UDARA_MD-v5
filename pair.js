@@ -81,11 +81,11 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `*UDARA_MD [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*`;
-            const mg = `🛑 *Do not share this code to anyone* 🛑`;
+            const sid = `💸𝙐𝘿𝘼𝙍𝘼 𝙈𝘿 𝘽𝙊𝙏 \n\n ░▒▓█ *𝐵𝑜𝑡 𝑑𝑒𝑡𝑎𝑖𝑙𝑠*  █▓▒░ \n ◆━━━━━━━▣✦▣━━━━━━━━◆\n | 🗣*Owner* : *Udara Rathnayaka*\n |📍*Type* : *Javascript,Html,Nodejs*\n | ⛩️ *Prefix* : *.*\n | 📊 *Commands = 40+*𓂇\n⇆ㅤ◁ㅤ ❚❚ㅤ ▷↻(⌐■_■) `;
+            const mg = `🚫𝐷𝑂 𝑁𝑂𝑇 𝑆𝐻𝐴𝑅𝐸 𝑇𝐻𝐼𝑆 𝐶𝑂𝐷𝐸 𝑇𝑂 𝐴𝑁𝑌𝑂𝑁𝐸.\n > ©UDARA_MD🏮`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://github.com/udaralakmal2025-web/UDARA_MD-v5/blob/main/image/tree-8175062.jpg?raw=true",
+                url: "https://github.com/udaralakmal2025-web/BOT-HELPER-02/blob/main/Blue%20Modern%20Gradient%20Artficial%20Intelligence%20Poster.jpg?raw=true",
               },
               caption: sid,
             });
@@ -129,5 +129,6 @@ process.on("uncaughtException", function (err) {
 });
 
 module.exports = router;
+
 
 
