@@ -81,8 +81,8 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `💸𝙐𝘿𝘼𝙍𝘼 𝙈𝘿 𝘽𝙊𝙏 \n\n ░▒▓█ *𝐵𝑜𝑡 𝑑𝑒𝑡𝑎𝑖𝑙𝑠*  █▓▒░ \n ◆━━━━━━━▣✦▣━━━━━━━━◆\n | 🗣*Owner* : *Udara Rathnayaka*\n |📍*Type* : *Javascript,Html,Nodejs*\n | ⛩️ *Prefix* : *.*\n | 📊 *Commands = 40+*𓂇\n⇆ㅤ◁ㅤ ❚❚ㅤ ▷↻(⌐■_■) `;
-            const mg = `🚫𝐷𝑂 𝑁𝑂𝑇 𝑆𝐻𝐴𝑅𝐸 𝑇𝐻𝐼𝑆 𝐶𝑂𝐷𝐸 𝑇𝑂 𝐴𝑁𝑌𝑂𝑁𝐸.\n > ©UDARA_MD🏮`;
+            const sid = `💸𝙐𝘿𝘼𝙍𝘼 𝙈𝘿 𝘽𝙊𝙏 \n\n ░▒▓█ *𝐵𝑜𝑡 𝑑𝑒𝑡𝑎𝑖𝑙𝑠*  █▓▒░ \n ◆━━━━━━━▣✦▣━━━━━━━━◆\n | 🗣*Owner* : *Udara Rathnayaka*\n |📍*Type* : *Javascript,Html,Nodejs*\n | ⛩️ *Prefix* : *.*\n | 📊 *Commands = 40+*  𓂇\n\n⇆ㅤ◁ㅤ ❚❚ㅤ ▷↻(⌐■_■) `;
+            const mg = `🚫𝐷𝑂 𝑁𝑂𝑇 𝑆𝐻𝐴𝑅𝐸 𝑇𝐻𝐼𝑆 𝐶𝑂𝐷𝐸 𝑇𝑂 𝐴𝑁𝑌𝑂𝑁𝐸.\n\n> ©UDARA_MD🏮`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
                 url: "https://github.com/udaralakmal2025-web/BOT-HELPER-02/blob/main/Blue%20Modern%20Gradient%20Artficial%20Intelligence%20Poster.jpg?raw=true",
@@ -129,6 +129,7 @@ process.on("uncaughtException", function (err) {
 });
 
 module.exports = router;
+
 
 
 
